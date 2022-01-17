@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+
+# Visual Studio Code (optional)
+.vscode
+
+# Python
+.env
+.venv/
+venv/
+__pycache__
+*/dev.py
+*/*_initial.py
+
+# DB data
+db.sqlite3
+*/db.sqlite3
+data/

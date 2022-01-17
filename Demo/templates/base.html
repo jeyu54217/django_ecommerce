@@ -1,0 +1,153 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Django E-commerce Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap_5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- Front Awsome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- CSS -->
+        <link href="{% static 'css/base.css' %}" rel="stylesheet" />
+        <!-- Icons -->
+        <link href="{% static 'images/favicon.ico' %}" rel="shortcut icon"  type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="container-fluid text-sm-end p-4 bg-secondary">        
+          <nav class="navbar navbar-icon-top fixed-top  navbar-expand-lg navbar-dark bg-dark py-1">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/">
+              <img src="{% static 'images/logo.png' %}" width="110" height="40" alt="">
+            </a>
+            <!-- Searching box -->
+            <form class="mr-2 my-auto w-50 d-inline-block order2" action="/search">
+              <div class="input-group">
+                <input 
+                class="form-control border border-right-0" 
+                name="q" 
+                type="search" 
+                placeholder="Search for products ..." 
+                value="{{ query }}" 
+                aria-label="Search" 
+                id="nav_search"
+                >
+                  <span class="input-group-append">
+                    <button class="btn btn-outline-light border border-left-0" type="submit">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </span>
+              </div>
+            </form>
+
+            <!-- Category_Dropdown_list -->
+            {% for category_a in categories_A %}  
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav ">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{category_a.name}} 
+                  </a>
+                  <!-- Category_list -->
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    {% for category_b in categories_B %}
+                        {% if category_b.category_A_id == category_a.id %}  <!-- Filter by Foreign Key : FK_id <-> id -->
+                        <li><a class="dropdown-item" href="{{category_b.get_absolute_url}}">{{category_b.name}}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            {% endfor %} 
+            <!-- Navbar_Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                
+                <!-- Navbar_Home --> 
+                <li class="nav-item"active >
+                  <a class="nav-link" href="{% url 'shop:homepage' %}" ><i class="fa fa-home"></i> </a>
+                </li>
+                <!-- Navbar_My Account -->
+                <li class="nav-item" {% if request.resolver_match.url_name == 'profile' or request.resolver_match.url_name == 'signin' %}active{% endif %}>
+                  <a class="nav-link" href="{% url 'accounts:profile' %}" > <i class="fa fa-user"> </i> </a>
+                </li>
+                <!-- Navbar_Cart -->
+                {% with total_items=cart|length %}
+                <li class="nav-item" active>
+                  <a class="nav-link" href="{% url 'cart:cart_detail' %}" >
+                    <i class="fa fa-shopping-cart"></i>
+                    {% if  total_items != 0 %}
+                    <input type="button" value="{{ total_items }}" class="btn btn-outline-info btn-sm ml-1 cart-button">
+                    {% endif %}
+                  </a>
+                </li>
+                {% endwith %}
+                <!-- User Log In/Out -->
+                <button type="button" class="btn btn-secondary">
+                  {% if request.user.is_authenticated %}
+                  <a href="{% url 'accounts:logout' %}">Log-out</a>
+                      {% else %}
+                      <a href="{% url 'accounts:login' %}">Log-in</a>
+                  {% endif %}
+                </button>
+                <!-- Admin -->
+                  <li class="nav-item" title="account:root, password:admin">
+                    <a class="nav-link" href="{% url 'admin:index' %}"></a>
+                  </li>
+              </ul>
+            </div>
+
+            
+
+          </nav>
+        </div> 
+        <div>
+        {% block content %}  {% endblock %}
+        </div>
+
+        <!-- footer -->
+        <div>
+          {% include "footer.html" %}
+        </div>
+
+        <!-- JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script> 
+
+      </body>
+
+
+
+     {% comment %}
+     <!--Django Template references :
+       1.{{ variable }} replaces it with the var result : https://docs.djangoproject.com/en/3.2/ref/templates/language/#variables
+       2.{% tag %}
+         a)Load
+            {% load %} load all tags and filters registered in package : https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#load
+            {% static %} https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#static
+            {% url %} https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#url
+                {% url "app_name : urls.name/namespase" %} Reversing namespaced URLs : https://docs.djangoproject.com/en/3.2/topics/http/urls/#reversing-namespaced-urls
+            {% include %} https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#include
+         b)Create
+            {% with %} define variable : https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#with
+         c)Flow Control
+            {% if %} {% endif %} https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#if
+            {% for %} {% endfor %} https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#for
+         d)Filter
+            {{ |length }} Returns length of value. This works for "strings" and "lists" : https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#length
+         e)Inheritance https://docs.djangoproject.com/en/3.2/ref/templates/language/#template-inheritance
+            {% block %} Defines a block that can be overridden by child templates
+            {% extends %} 
+     -->
+     {% endcomment %}
