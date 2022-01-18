@@ -30,18 +30,18 @@ def order_create(request):
                 )
             try:
                 order_params = {
-                    'MerchantTradeNo': datetime.now().strftime(f"NO%Y%m%d-{order.id}"),
+                    'MerchantTradeNo': datetime.now().strftime(f"NO%Y%m%d{order.id}"),
                     'MerchantTradeDate': datetime.now().strftime("%Y/%m/%d %H:%M:%S"),
                     'PaymentType': 'aio',
                     'TotalAmount': int(cart.get_total_price()),
                     'TradeDesc': 'Test',
                     'ItemName': 'Product',
-                    'ReturnURL': f'https://{settings.WEBSITE_URL}/orders/confirmed',
-                    # 'ReturnURL': 'http://127.0.0.1:8000/orders/confirmed/',
+                    # 'ReturnURL': f'https://{settings.WEBSITE_URL}/orders/confirmed',
+                    'ReturnURL': 'http://127.0.0.1:8000/orders/confirmed/',
                     'ChoosePayment': 'Credit',    
                     'ClientBackURL': f'https://{settings.WEBSITE_URL}/orders/finished/',
-                    'OrderResultURL': f'https://{settings.WEBSITE_URL}/orders/finished',
-                    # 'OrderResultURL': 'http://127.0.0.1:8000/orders/finished/',
+                    # 'OrderResultURL': f'https://{settings.WEBSITE_URL}/orders/finished',
+                    'OrderResultURL': 'http://127.0.0.1:8000/orders/finished/',
                     'EncryptType': 1,
                 }
                 # 產生綠界訂單所需參數
@@ -55,7 +55,7 @@ def order_create(request):
             
             except Exception as error:
                  print(f"An exception happened: {error}")
-        cart.clear()
+
 
     else:
         form = OrderCreateForm()
@@ -80,6 +80,7 @@ def order_confirmed(request):
 @csrf_exempt
 def order_finished(request):
     cart = Cart(request)
+    cart.clear()
     return render(
         request,
         'order/order_created.html',
