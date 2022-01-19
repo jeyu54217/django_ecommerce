@@ -48,12 +48,22 @@
         - Route 53 (DNS)
         - Certificate Manager (SSL)
 * References:
+    - Frontend
+        - [[Udemy] Angela Yu. The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
     - Django
-        - [Antonio Melé (May 31, 2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
+        - [Antonio Melé (2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
             - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
-    - [Sign in with social media accounts](https://scotch.io/tutorials/django-authentication-with-facebook-instagram-and-linkedin)
-    - [twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial)
-    - [Google Analytics - gtagjs](https://developers.google.com/analytics/devguides/collection/gtagjs)
+    - Docker:
+        - [[Youtube] Mumshad Mannambeth (2021). Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
+        - [[Youtube] Nana (2021). Docker Tutorial for Beginners ](https://www.youtube.com/watch?v=3c-iBn73dDE)
+        - [[Youtube] London App Developer (2021). Deploying Django with Docker Compose](https://www.youtube.com/watch?v=mScd-Pc_pX0)
+    - AWS:
+        - [[Udemy] London App Developer (2021). Deploying Django with Docker Compose](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
+
+    - Python
+        - [[Udemy] Stephane Maarek (2021).Ultimate AWS Certified Developer Associate ](https://www.udemy.com/course/the-modern-python3-bootcamp/)
+        - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
+
 
 ## Functions
 
