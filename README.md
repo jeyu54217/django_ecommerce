@@ -21,9 +21,9 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 
 * 專案建構於EC2
 * 申請SSL憑證實踐HTTPS
-- Frontend:
+### Frontend:
     - [Bootstrap (5)](https://getbootstrap.com/)
-- Backend:
+### Backend:
     - Framwork
         - [Django (3.2)](https://www.djangoproject.com/)
             - MVT design pattern
@@ -38,7 +38,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
         - [Redis](https://redis.io/)
     - RDBMS:
         - [PostgreSQL](https://www.postgresql.org//)
-- Deployment:
+### Deployment:
     - [AWS](https://aws.amazon.com/tw/)
     - [Docker](https://www.docker.com/)
     - [NGINX](https://nginx.org/en/)
