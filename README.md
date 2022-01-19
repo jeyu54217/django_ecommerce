@@ -72,10 +72,7 @@
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_footer.jpg)
 
 ### Product Search
-
-* 使用者可以註冊、登入、登出網站系統
-
-  ![image](https://user-images.githubusercontent.com/73434165/121942693-5b3bfd00-cd83-11eb-864b-a6196c0b8372.png)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_search.jpg)
 
 * 使用者可以進入各個景點分頁，訂購行程、刪除購物車行程，並在預定行程頁面進行付款
 
