@@ -49,7 +49,8 @@ This project is about a demo ECommerce website built with Django, Bootstrap, Pos
 
 - Images: 
     - Homepage  
-    ![demo_homepgae_en.png](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_home.jpg)
+    ![homepgae](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_home.jpg)
+    ![homepgae](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_footer.jpg)
     - Products  
     ![demo_products_en.png](https://raw.githubusercontent.com/ZoeLiao/python-Django-demo/zoeliao/dev/demo/static/images/demo_products_en.png)
     - Product - Coming Soon  (No Image)   
