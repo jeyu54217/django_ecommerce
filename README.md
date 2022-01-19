@@ -1,28 +1,22 @@
 # [Django_ECommerce_Demo](https://www.jerryyu.click) 
 
-This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, and so on. 
+  This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, and so on. The whole project was containerized by Docker and deployed on AWS EC2.
 
-The whole project was containerized by Docker and deployed on AWS EC2.
-
-## Info
+## Infomation
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
 
 - Root User : admin
 - Password : admin
 
-- Credit Card for Test : 4311-9522-2222-2222</br>
+- Credit Card : 4311-9522-2222-2222</br>
 - Date : 12/22</br>
 - CVV : 222</br>
 
 
 ## Techniques & Tools
 
-* RESTful API架構實踐專案功能
-
 * 使用index加速MySQL查詢效率
 
-* 專案建構於EC2
-* 申請SSL憑證實踐HTTPS
 * Frontend:
     - [Bootstrap (5)](https://getbootstrap.com/)
 * Backend:
@@ -39,7 +33,9 @@ The whole project was containerized by Docker and deployed on AWS EC2.
     - Cache:
         - [Redis](https://redis.io/)
     - RDBMS:
-        - [PostgreSQL](https://www.postgresql.org//)
+        - [PostgreSQL](https://www.postgresql.org/)
+    - 3rd Party Payment
+        - [ECPay](https://www.ecpay.com.tw/Service/API_Dwnld)
 * Deployment:
     - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)
     - [NGINX](https://nginx.org/en/)
