@@ -22,7 +22,7 @@ This project is about a demo ECommerce website built with Django, Bootstrap, Pos
 * 專案建構於EC2
 * 申請SSL憑證實踐HTTPS
 
-## 功能介紹
+## Functions
 
 ### 首頁瀏覽
 
@@ -46,14 +46,6 @@ This project is about a demo ECommerce website built with Django, Bootstrap, Pos
 
 
 
-
-
-
-# Django_ECommerce_Demo
-
-
-- This project is a ECommerse website demo build with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, containerized by Docker and deploy on AWS EC2.
-- Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
 
 - Images: 
     - Homepage  
