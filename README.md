@@ -71,16 +71,35 @@
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_home.jpg)
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_footer.jpg)
 
+### Authentication
+- Sign Up
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_signup.jpg)
+- Log In & 3rd Party Log In
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_login.jpg)
+- Log out
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_logout.jpg)
+
 ### Product Search
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_search.jpg)
 
-* 使用者可以進入各個景點分頁，訂購行程、刪除購物車行程，並在預定行程頁面進行付款
+### Product Page
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_product.jpg)
 
-  ![image](https://user-images.githubusercontent.com/73434165/121942891-93434000-cd83-11eb-9651-d4cfcf452185.png)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_product2.jpg)
 
-* 使用者可以在會員系統查看過去的所有歷史訂單，並點選標題超連結進入各個訂購分頁，以及在會員系統進行退款
+### Cart
 
-  ![image](https://user-images.githubusercontent.com/73434165/121943303-051b8980-cd84-11eb-8c63-a664e4179354.png)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart.jpg)
+
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart2.jpg)
+
+  ### Cart
+
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart.jpg)
+
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart2.jpg)
+
+
 
 
 
