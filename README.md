@@ -24,7 +24,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 ### Frontend:
     - [Bootstrap (5)](https://getbootstrap.com/)
 ### Backend:
-    - Framwork
+    * Framwork
         - [Django (3.2)](https://www.djangoproject.com/)
             - MVT design pattern
             - [session](https://docs.djangoproject.com/en/4.0/topics/http/sessions/)
@@ -32,11 +32,11 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
             - [email](https://docs.djangoproject.com/en/4.0/topics/email/)
             - [admin](https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
             - [alluth (Google)](https://django-allauth.readthedocs.io/en/latest/index.html)
-    - Asynchronous Tasks
+    * Asynchronous Tasks
         - [Celery](http://www.celeryproject.org/)
-    - Cache:
+    * Cache:
         - [Redis](https://redis.io/)
-    - RDBMS:
+    * RDBMS:
         - [PostgreSQL](https://www.postgresql.org//)
 ### Deployment:
     - [AWS](https://aws.amazon.com/tw/)
