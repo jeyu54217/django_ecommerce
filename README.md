@@ -14,11 +14,8 @@
 
 
 ## Techniques & Tools
-
-* 使用index加速MySQL查詢效率
-
 * Frontend:
-    - [Bootstrap (5)](https://getbootstrap.com/)
+    - [Bootstrap (5.1)](https://getbootstrap.com/)
 * Backend:
     - Framework
         - [Django (3.2)](https://www.djangoproject.com/)
@@ -47,22 +44,24 @@
         - ALB 
         - Route 53 (DNS)
         - Certificate Manager (SSL)
-* References:
+## References:
+    - Internet
+        - [[Book] James Kurose, Keith Ross (2016). Computer Networking: A Top-Down Approach 7th](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
+        - [[Book] 井上直也, 村山公保, 竹下隆史, 荒井透, 苅田幸雄  (2021). 圖解TCP/IP網路通訊協定（涵蓋IPv6）2021修訂版](https://www.books.com.tw/products/0010883910?sloc=main)
+    - Python
+        - [[Udemy] Colt Steele (2020).Ultimate AWS Certified Developer Associate ](https://www.udemy.com/course/the-modern-python3-bootcamp/)
+        - [[Book] Bill Lubanovic (2019).Introducing Python, 2nd Edition](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
     - Frontend
-        - [[Udemy] Angela Yu. The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+        - [[Udemy] Angela Yu (2020). The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
     - Django
-        - [Antonio Melé (2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
+        - [[Book] Antonio Melé (2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
             - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
     - Docker:
-        - [[Youtube] Mumshad Mannambeth (2021). Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
-        - [[Youtube] Nana (2021). Docker Tutorial for Beginners ](https://www.youtube.com/watch?v=3c-iBn73dDE)
+        - [[Youtube] Mumshad Mannambeth, KodeKloud (2021). Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
+        - [[Youtube] TechWorld with Nana (2021). Docker Tutorial for Beginners ](https://www.youtube.com/watch?v=3c-iBn73dDE)
         - [[Youtube] London App Developer (2021). Deploying Django with Docker Compose](https://www.youtube.com/watch?v=mScd-Pc_pX0)
     - AWS:
-        - [[Udemy] London App Developer (2021). Deploying Django with Docker Compose](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
-
-    - Python
-        - [[Udemy] Stephane Maarek (2021).Ultimate AWS Certified Developer Associate ](https://www.udemy.com/course/the-modern-python3-bootcamp/)
-        - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
+        - [[Udemy] Stephane Maarek (2021). Ultimate AWS Certified Developer Associate ](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/)
 
 
 ## Functions
