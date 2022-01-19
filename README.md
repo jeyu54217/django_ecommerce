@@ -1,6 +1,6 @@
 # [Django_ECommerce_Demo](https://www.jerryyu.click) 
 
-  This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx. The whole project was containerized by Docker and deployed on AWS EC2.
+  This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi and Nginx. The whole project was containerized by Docker and deployed on AWS EC2.
 
 ## Information
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
@@ -99,6 +99,4 @@
   
 - ECPay
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_ECPay.jpg)
-- Succsee e-mail
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_order\ success\ mail\ .jpg)
 
