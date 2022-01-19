@@ -2,7 +2,7 @@
 
   This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, and so on. The whole project was containerized by Docker and deployed on AWS EC2.
 
-## Infomation
+## Information
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
 
 - Root User : admin
@@ -48,7 +48,9 @@
         - Route 53 (DNS)
         - Certificate Manager (SSL)
 * References:
-    - [shopping site (中文)](https://kknews.cc/zh-tw/code/pe9o3x8.html)
+    - Django
+        - [Antonio Melé (May 31, 2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
+            - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
     - [Sign in with social media accounts](https://scotch.io/tutorials/django-authentication-with-facebook-instagram-and-linkedin)
     - [twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial)
     - [Google Analytics - gtagjs](https://developers.google.com/analytics/devguides/collection/gtagjs)
