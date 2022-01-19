@@ -24,7 +24,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 * Frontend:
     - [Bootstrap (5)](https://getbootstrap.com/)
 * Backend:
-    - Framwork
+    - Framework
         - [Django (3.2)](https://www.djangoproject.com/)
             - MVT design pattern
             - [session](https://docs.djangoproject.com/en/4.0/topics/http/sessions/)
@@ -42,7 +42,9 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
     - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)
     - [NGINX](https://nginx.org/en/)
     - [Docker](https://www.docker.com/)
-    - [AWS](https://aws.amazon.com/tw/)
+        - [freeze](https://pip.pypa.io/en/stable/cli/pip_freeze/#)
+        - [Docker-compose](https://docs.docker.com/compose/)
+    - [AWS](https://aws.amazon.com/)
         - EC2
         - ALB 
         - Route 53 (DNS)
