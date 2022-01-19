@@ -21,7 +21,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 
 * 專案建構於EC2
 * 申請SSL憑證實踐HTTPS
-* Frontend:
+* <h3>Frontend:</h3>
     - [Bootstrap (5)](https://getbootstrap.com/)
 * Backend:
     - Framwork
