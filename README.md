@@ -13,7 +13,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 - CVV : 222</br>
 
 
-## Techniques & tools
+## Techniques & Tools
 
 * RESTful API架構實踐專案功能
 
@@ -21,7 +21,7 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
 
 * 專案建構於EC2
 * 申請SSL憑證實踐HTTPS
-* <h3>Frontend:</h3>
+* Frontend:
     - [Bootstrap (5)](https://getbootstrap.com/)
 * Backend:
     - Framwork
@@ -38,13 +38,16 @@ This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQ
         - [Redis](https://redis.io/)
     - RDBMS:
         - [PostgreSQL](https://www.postgresql.org//)
-### Deployment:
-    - [AWS](https://aws.amazon.com/tw/)
-    - [Docker](https://www.docker.com/)
+* Deployment:
+    - [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)
     - [NGINX](https://nginx.org/en/)
-    - [Certbot (Let's encryp)](https://certbot.eff.org/)
-
-- Reference:
+    - [Docker](https://www.docker.com/)
+    - [AWS](https://aws.amazon.com/tw/)
+        - EC2
+        - ALB 
+        - Route 53 (DNS)
+        - Certificate Manager (SSL)
+* References:
     - [shopping site (中文)](https://kknews.cc/zh-tw/code/pe9o3x8.html)
     - [Sign in with social media accounts](https://scotch.io/tutorials/django-authentication-with-facebook-instagram-and-linkedin)
     - [twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial)
