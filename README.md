@@ -66,13 +66,12 @@
 
 ## Functions
 
-### 首頁瀏覽
+### Homepage
 
-* 滾輪往下滑，可以閱覽所有景點資訊(1次重新列出12筆新景點)，也可以透過關鍵字搜尋景點標題
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_home.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_footer.jpg)
 
-  ![image](https://user-images.githubusercontent.com/73434165/121943692-6ba0a780-cd84-11eb-8f04-32423d8a6c28.png)
-
-### 帳號管理
+### Product Search
 
 * 使用者可以註冊、登入、登出網站系統
 
