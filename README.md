@@ -1,26 +1,54 @@
 # [Django_ECommerce_Demo](https://www.jerryyu.click) 
 
-This project is about a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, and so on. The whole project was containerized by Docker and deployed on AWS EC2.
+This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi, Nginx, and so on. The whole project was containerized by Docker and deployed on AWS EC2.
 
-## Demo
+## Info
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
 
 - Root User : admin
 - Password : admin
 
-- Credit Card : 4311-9522-2222-2222</br>
+- Credit Card for Test : 4311-9522-2222-2222</br>
 - Date : 12/22</br>
-- CVV : 222
+- CVV : 222</br>
 
 
-## 使用技術
-* Node.js Express
+## Techniques & tools
+
 * RESTful API架構實踐專案功能
-* 原生HTML+CSS完成RWD網頁
+
 * 使用index加速MySQL查詢效率
-* 結合TapPay SDK開發購物車系統
+
 * 專案建構於EC2
 * 申請SSL憑證實踐HTTPS
+- Frontend:
+    - [Bootstrap (5)](https://getbootstrap.com/)
+- Backend:
+    - Framwork
+        - [Django (3.2)](https://www.djangoproject.com/)
+            - MVT design pattern
+            - [session](https://docs.djangoproject.com/en/4.0/topics/http/sessions/)
+            - [form](https://docs.djangoproject.com/en/4.0/topics/forms/)
+            - [email](https://docs.djangoproject.com/en/4.0/topics/email/)
+            - [admin](https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
+            - [alluth (Google)](https://django-allauth.readthedocs.io/en/latest/index.html)
+    - Asynchronous Tasks
+        - [Celery](http://www.celeryproject.org/)
+    - Cache:
+        - [Redis](https://redis.io/)
+    - RDBMS:
+        - [PostgreSQL](https://www.postgresql.org//)
+- Deployment:
+    - [AWS](https://aws.amazon.com/tw/)
+    - [Docker](https://www.docker.com/)
+    - [NGINX](https://nginx.org/en/)
+    - [Certbot (Let's encryp)](https://certbot.eff.org/)
+
+- Reference:
+    - [shopping site (中文)](https://kknews.cc/zh-tw/code/pe9o3x8.html)
+    - [Sign in with social media accounts](https://scotch.io/tutorials/django-authentication-with-facebook-instagram-and-linkedin)
+    - [twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial](https://github.com/twtrubiks/docker-django-nginx-uwsgi-postgres-tutorial)
+    - [Google Analytics - gtagjs](https://developers.google.com/analytics/devguides/collection/gtagjs)
 
 ## Functions
 
