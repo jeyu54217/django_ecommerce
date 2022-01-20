@@ -1,6 +1,6 @@
 # [Django_ECommerce_Demo](https://www.jerryyu.click) 
 
-  This project is a demo ECommerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi and Nginx. The whole project was containerized by Docker and deployed on AWS EC2.
+  This project is a demo e-commerce website built with Django, Bootstrap, PostgreSQL, Celery, Redis, uwsgi and Nginx. The whole project was containerized by Docker and deployed on AWS EC2.
 
 ## Information
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
@@ -45,7 +45,7 @@
         - Route 53 (DNS)
         - Certificate Manager (SSL)
 ## References
-   - Internet
+   - Network
         - [[Book] James Kurose, Keith Ross (2016). Computer Networking: A Top-Down Approach 7th](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
         - [[Book] 井上直也, 村山公保, 竹下隆史, 荒井透, 苅田幸雄  (2021). 圖解TCP/IP網路通訊協定（涵蓋IPv6）2021修訂版](https://www.books.com.tw/products/0010883910?sloc=main)
    - Python
