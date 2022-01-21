@@ -49,7 +49,7 @@
         - [[Book] James Kurose, Keith Ross (2016). Computer Networking: A Top-Down Approach 7th](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
         - [[Book] 井上直也, 村山公保, 竹下隆史, 荒井透, 苅田幸雄  (2021). 圖解TCP/IP網路通訊協定（涵蓋IPv6）2021修訂版](https://www.books.com.tw/products/0010883910?sloc=main)
    - Python
-        - [[Udemy] Colt Steele (2020).Ultimate AWS Certified Developer Associate ](https://www.udemy.com/course/the-modern-python3-bootcamp/)
+        - [[Udemy] Colt Steele (2020).The Modern Python 3 Bootcamp ](https://www.udemy.com/course/the-modern-python3-bootcamp/)
         - [[Book] Bill Lubanovic (2019).Introducing Python, 2nd Edition](https://www.oreilly.com/library/view/introducing-python-2nd/9781492051374/)
    - Frontend
         - [[Udemy] Angela Yu (2020). The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
