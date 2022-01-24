@@ -101,4 +101,6 @@
   
 - ECPay
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_ECPay.jpg)
-
+- Order Success email
+  [image](https://bnz05pap001files.storage.live.com/y4mszs4b_gnV-lMhQ0aLuRfDgvyvPQ9hYSS8zCLqnSgSE3RYBlEpPYyydnbSI8mnxjcBgdpl7zNeNXCUMOUwRIWrDCMQtGLEsAGCsRF6N_oJUqyYMGcpYr_gCtAIkqGfkrSJaWfCvElMm_9ah_1m-C63LknNGxlQam1m6Vp0-gcKcJshw_4QcGSIHklVDmCP0sP?width=1644&height=822&cropmode=none)
+ 
