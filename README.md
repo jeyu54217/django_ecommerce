@@ -13,7 +13,7 @@
 - CVV : 222</br>
 
 ## Django ORM Schema
-![image](https://bnz05pap001files.storage.live.com/y4mxbL5NMZm7OnTqAVPmC8ynPn_hBZDhVqHIsA9hppSTspIiGIELTqc-514suSeo5sE1gx3IQZMJpLuPo__DLKsIqw7HxNCcki4clgunbXiSygwq8d5nhZ9H3bUv_nLnW3fxe7O4Qjv3KLba9of0kZfLwFWwUpEH-UYmMokZI8l3W7mgPQngkKAXPfACCGy_Jl1?width=660&height=578&cropmode=none)
+![image]https://bnz05pap001files.storage.live.com/y4m-FP_i_dPVG2DktHMdkQ6-q94xW8KQcZ7wMQsFC86JwobsuAA7JEOcFsetzqTpwJxDGapJPH5rtPZTNbFQxm3sEe11nhUIHpGkiRVcWSzU2Gqs9YWBdS21l1CuShtPqKIrg2r6hwl4q2Aoxc4v4RyLN1KDG4QSV2VUSCaBio3Ik6e_v0wOCsk-L7Y4Lty6CV-?width=660&height=588&cropmode=none)
 
 ## Techniques & Tools
 * Frontend:
