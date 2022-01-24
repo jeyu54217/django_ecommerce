@@ -26,7 +26,6 @@
             - [session](https://docs.djangoproject.com/en/4.0/topics/http/sessions/)
             - [form](https://docs.djangoproject.com/en/4.0/topics/forms/)
             - [email](https://docs.djangoproject.com/en/4.0/topics/email/)
-            - [admin](https://docs.djangoproject.com/en/4.0/ref/contrib/admin/)
             - [alluth (Google)](https://django-allauth.readthedocs.io/en/latest/index.html)
     - Asynchronous Tasks
         - [Celery](http://www.celeryproject.org/)
