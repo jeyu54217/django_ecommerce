@@ -14,7 +14,8 @@
 
 ## Django ORM Schema
 ![image](https://bnz05pap001files.storage.live.com/y4mPTzVeh7LOK-9S9sNQf5DqHV6epvcp-W64Dx7hRbO2IuM5r1GRGdVEhE4wvyzA2axZCDYXJ6we3ZyY3VYEaE-q9dRcUROM-Cuj7USuyzL3ofMfxPBsqBsSFyVYCanppv24b3xBMXH8Lti7_MQpRnOgG7WFmMnEtyJedy8xN2hBf4UF5Dg1Ssk-dzB-OxT33Xy?width=660&height=592&cropmode=none)
-
+## Backend Architecture
+![image](https://bnz05pap001files.storage.live.com/y4m8hqpr2Un8a7J8OEJcpolmPJfiDx1g-asKAfTI6QHA6UE4GkOkC3XDgKxM-MBBQAcc4XR961OjshhwzX6k3b0pTbYvXzHI1QcF-mf_CASABJa_kcLUUYrXfkpXcdjTmFLlF8hgWMAXeppqsBo4s5F3ZLvC8vKHe1BSlVnA9k2YubgaI_mDyjfHsREmX0U7d89?width=1024&height=344&cropmode=none)
 ## Techniques & Tools
 * Frontend:
     - [Bootstrap (5.1)](https://getbootstrap.com/)
@@ -46,8 +47,7 @@
         - ALB 
         - Route 53 (DNS)
         - Certificate Manager (SSL)
-## Backend Architecture
-![image](https://bnz05pap001files.storage.live.com/y4m8hqpr2Un8a7J8OEJcpolmPJfiDx1g-asKAfTI6QHA6UE4GkOkC3XDgKxM-MBBQAcc4XR961OjshhwzX6k3b0pTbYvXzHI1QcF-mf_CASABJa_kcLUUYrXfkpXcdjTmFLlF8hgWMAXeppqsBo4s5F3ZLvC8vKHe1BSlVnA9k2YubgaI_mDyjfHsREmX0U7d89?width=660&height=222&cropmode=none)
+
 
 
 ## References
