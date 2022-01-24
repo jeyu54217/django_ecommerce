@@ -46,6 +46,10 @@
         - ALB 
         - Route 53 (DNS)
         - Certificate Manager (SSL)
+## Backend Architecture
+![image](https://bnz05pap001files.storage.live.com/y4m8hqpr2Un8a7J8OEJcpolmPJfiDx1g-asKAfTI6QHA6UE4GkOkC3XDgKxM-MBBQAcc4XR961OjshhwzX6k3b0pTbYvXzHI1QcF-mf_CASABJa_kcLUUYrXfkpXcdjTmFLlF8hgWMAXeppqsBo4s5F3ZLvC8vKHe1BSlVnA9k2YubgaI_mDyjfHsREmX0U7d89?width=660&height=222&cropmode=none)
+
+
 ## References
    - Network
         - [[Book] James Kurose, Keith Ross (2016). Computer Networking: A Top-Down Approach 7th](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
