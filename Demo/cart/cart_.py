@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 from shop.models import Product
 
-## All request is designed for func. in cart.views
+## All requests are designed for func. in cart.views
 
 class Cart():
     def __init__(self,request):
