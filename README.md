@@ -52,7 +52,6 @@
 ## References
    - Django
         - [[Book] Antonio Melé (2018). Django 2 by Example: Build powerful and reliable Python web applications from scratch ](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
-            - [Django2实战示例](https://www.cnblogs.com/superhin/p/13223588.html)
    - Docker:
         - [[Youtube] Mumshad Mannambeth, KodeKloud (2021). Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
         - [[Youtube] TechWorld with Nana (2021). Docker Tutorial for Beginners ](https://www.youtube.com/watch?v=3c-iBn73dDE)
