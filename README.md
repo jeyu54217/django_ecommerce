@@ -64,35 +64,34 @@
 
 ### Homepage
 
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_home.jpg)
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_footer.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_home.jpg)
 
 ### Authentication
 - Sign Up
-![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_signup.jpg)
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_signup.jpg)
 - Log In & 3rd Party Log In
-![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_login.jpg)
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_login.jpg)
 - Log out
-![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_logout.jpg)
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_logout.jpg)
 
 ### Product Search
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_search.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_search.jpg)
 
 ### Product Page
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_product.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_product.jpg)
 
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_product2.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_product2.jpg)
 
 ### Cart
 
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_cart.jpg)
 
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_cart2.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_cart2.jpg)
 
 ### Order
-![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_checkout.jpg)
+![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_checkout.jpg)
 ECPay
-  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/main/Demo/static/images/demo/demo_ECPay.jpg)
+  ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_ECPay.jpg)
 Order Success email
   ![image](https://bnz05pap001files.storage.live.com/y4mszs4b_gnV-lMhQ0aLuRfDgvyvPQ9hYSS8zCLqnSgSE3RYBlEpPYyydnbSI8mnxjcBgdpl7zNeNXCUMOUwRIWrDCMQtGLEsAGCsRF6N_oJUqyYMGcpYr_gCtAIkqGfkrSJaWfCvElMm_9ah_1m-C63LknNGxlQam1m6Vp0-gcKcJshw_4QcGSIHklVDmCP0sP?width=660&height=330&cropmode=none)
  
