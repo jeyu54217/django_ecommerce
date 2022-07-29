@@ -3,7 +3,7 @@
   A demo e-commerce website built with Bootstrap, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. Base on microservice architecture, containerized by dsocker-compose and deployed on AWS EC2.
 
 ## Information
-- Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) 
+- Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) (temporary not available)
 
 - Root User : admin
 - Password : admin
