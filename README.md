@@ -60,6 +60,7 @@
 
   ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_home.jpg)
 
+
 ### Authentication
 - Sign Up
 ![image](https://raw.githubusercontent.com/jeyu54217/Django_ECommerce_Demo/develop/Demo/static/images/demo/demo_signup.jpg)
