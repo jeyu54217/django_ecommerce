@@ -1,6 +1,6 @@
 # [Django_ecommerce_demo](https://www.jerryyu.click) 
 
-  A demo e-commerce website built with Bootstrap, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. Base on microservice architecture, containerized by dsocker-compose and deployed on AWS EC2.
+  This is a demo e-commerce website built with Bootstrap, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. Base on microservice architecture, containerized by dsocker-compose and deployed on AWS EC2.
 
 ## Information
 - Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) (temporary not available)
