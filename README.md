@@ -1,7 +1,7 @@
 **CONTENTS**
-- [Django_ecommerce_demo](#django_ecommerce_demo)
+- [Informations](#informations)
+  - [Test Info](#test-info)
   - [Setting Up](#setting-up)
-    - [Test Info](#test-info)
     - [Local Enviroment](#local-enviroment)
   - [DB Schema](#db-schema)
   - [Backend Architecture](#backend-architecture)
@@ -16,18 +16,18 @@
     - [Order](#order)
 
 
-# [Django_ecommerce_demo](https://www.jerryyu.click) 
+# Informations
 - This is a demo e-commerce website built with Python, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. The whole project is containerized by dsocker, dsocker-compose and deployed on AWS EC2.
-
-## Setting Up
+## Test Info
 - Website url: [https://www.jerryyu.click](https://www.jerryyu.click) (temporary not available)
-### Test Info
+  
 - Root User : admin
 - Password : admin
 
 - Credit Card : 4311-9522-2222-2222</br>
 - Date : 12/22</br>
 - CVV : 222</br>
+## Setting Up
  
 ### Local Enviroment
 - ```git clone https://github.com/jeyu54217/django_ecommerce.git```
