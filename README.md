@@ -1,11 +1,27 @@
+**CONTENTS**
+- [Django_ecommerce_demo](#django_ecommerce_demo)
+  - [Setting Up](#setting-up)
+    - [Test Info](#test-info)
+    - [Local Enviroment](#local-enviroment)
+  - [DB Schema](#db-schema)
+  - [Backend Architecture](#backend-architecture)
+  - [Techniques & Tools](#techniques--tools)
+  - [References](#references)
+  - [Features](#features)
+    - [Homepage](#homepage)
+    - [Authentication](#authentication)
+    - [Product Search](#product-search)
+    - [Product Page](#product-page)
+    - [Cart](#cart)
+    - [Order](#order)
+
+
 # [Django_ecommerce_demo](https://www.jerryyu.click) 
+- This is a demo e-commerce website built with Python, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. The whole project is containerized by dsocker, dsocker-compose and deployed on AWS EC2.
 
-  This is a demo e-commerce website built with Bootstrap, Django, PostgreSQL, Celery, Redis, uwsgi, and Nginx. Base on microservice architecture, containerized by dsocker-compose and deployed on AWS EC2.
-
-## Information
-- Website URL: [https://www.jerryyu.click](https://www.jerryyu.click) (temporary not available)
-
-
+## Setting Up
+- Website url: [https://www.jerryyu.click](https://www.jerryyu.click) (temporary not available)
+### Test Info
 - Root User : admin
 - Password : admin
 
@@ -13,10 +29,14 @@
 - Date : 12/22</br>
 - CVV : 222</br>
  
- 
- 
- 
- 
+### Local Enviroment
+- ```git clone https://github.com/jeyu54217/django_ecommerce.git```
+- ```python3 -m venv <proj_path/venv>```
+- ```pip install -r requirements.txt```
+- ```cd django_ecommerce```
+- ```python3 manage.py makemigrations```
+- ```python3 manage.py migrate```
+
 ## DB Schema
 ![image](https://bnz05pap001files.storage.live.com/y4mPTzVeh7LOK-9S9sNQf5DqHV6epvcp-W64Dx7hRbO2IuM5r1GRGdVEhE4wvyzA2axZCDYXJ6we3ZyY3VYEaE-q9dRcUROM-Cuj7USuyzL3ofMfxPBsqBsSFyVYCanppv24b3xBMXH8Lti7_MQpRnOgG7WFmMnEtyJedy8xN2hBf4UF5Dg1Ssk-dzB-OxT33Xy?width=660&height=592&cropmode=none)
 ## Backend Architecture
