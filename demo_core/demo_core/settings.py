@@ -15,13 +15,11 @@ SECRET_KEY = 'django-insecure-p8%0s8qt6k$61o601pagr7rkjtq^3lw&9qgemcc_ziqx3me)cy
 DEBUG = True
 
 ROOT_URL = 'http://localhost:8000'
-ALLOWED_HOSTS = [
-    'http://localhost:8000',
-    '127.0.0.1',
-]
+ALLOWED_HOSTS = []
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://172.20.10.5:8080',
+    'http://localhost:8080',
 
 ]
 # (corsheaders.E014) Origin 'http://localhost:4200/' in CORS_ORIGIN_WHITELIST should not have path .Im getting this error.

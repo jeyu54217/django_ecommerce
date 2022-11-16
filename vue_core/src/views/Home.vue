@@ -3,31 +3,26 @@
     <section class="hero is-medium is-dark mb-6">
         <div class="hero-body has-text-centered">
             <p class="title mb-6">
-                Welcome to Djacket
-            </p>
-            <p class="subtitle">
-                The best jacket store online
+                What do you want to eat?
             </p>
         </div>
     </section>
 
     <div class="columns is-multiline">
       <div class="column is-12">
-          <h2 class="is-size-2 has-text-centered">Latest products</h2>
+        <h2 class="is-size-2 has-text-centered">Latest Restaurants</h2>
       </div>
-
       <ProductBox 
         v-for="product in latestProducts"
         v-bind:key="product.id"
-        v-bind:product="product" />
+        v-bind:product="product"/>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-
 import ProductBox from '@/components/ProductBox'
+import axios from 'axios'
 
 export default {
   name: 'Home',
@@ -39,11 +34,12 @@ export default {
   components: {
     ProductBox
   },
+
   mounted() {
     this.getLatestProducts()
-
-    document.title = 'Home | Djackets'
+    document.title = 'Home'
   },
+
   methods: {
     async getLatestProducts() {
       this.$store.commit('setIsLoading', true)

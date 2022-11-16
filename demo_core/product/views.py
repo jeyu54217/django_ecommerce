@@ -1,5 +1,6 @@
 from django.db.models import Q
 from django.http import Http404
+import random
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -12,6 +13,14 @@ class LatestProductsList(APIView):
     def get(self, request, format=None):
         products = Product.objects.all()[0:4]
         serializer = ProductSerializer(products, many=True)
+        return Response(serializer.data)
+
+class RandomProduct(APIView):
+    def get(self, request, format=None):
+        products = list(Product.objects.all()) # Population must be a sequence
+        random_products = random.sample(products, 2)
+        # random_product = random.choice(products) # single random item
+        serializer = ProductSerializer(random_products, many=True)
         return Response(serializer.data)
 
 class ProductDetail(APIView):
@@ -41,7 +50,6 @@ class CategoryDetail(APIView):
 @api_view(['POST'])
 def search(request):
     query = request.data.get('query', '')
-
     if query:
         products = Product.objects.filter(Q(name__icontains=query) | Q(description__icontains=query))
         serializer = ProductSerializer(products, many=True)

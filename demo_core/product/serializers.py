@@ -8,9 +8,10 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "name",
-            "get_absolute_url",
             "description",
             "price",
+            
+            "get_absolute_url",
             "get_image",
             "get_thumbnail"
         )
@@ -23,6 +24,7 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "name",
-            "get_absolute_url",
             "products",
+            
+            "get_absolute_url",
         )

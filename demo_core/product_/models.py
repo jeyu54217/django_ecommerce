@@ -7,7 +7,7 @@ from django.conf import settings # from demo_core import settings
 from io import BytesIO
 from PIL import Image
 from django.core.files import File
-
+ 
 
 # class Category_A(models.Model):
 #     name = models.CharField(
@@ -168,7 +168,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='uploads/', blank=True, null=True)
     thumbnail = models.ImageField(upload_to='uploads/', blank=True, null=True)
     date_added = models.DateTimeField(auto_now_add=True)
-
+ 
     class Meta:
         ordering = ('-date_added',)
     

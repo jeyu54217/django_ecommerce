@@ -1,0 +1,24 @@
+- Django set up
+  - products
+    - app
+    - models
+    - serializer
+    - views viweset
+    - latest products
+- Vue set up
+  - npm install -g @vue/cli  
+  - vue create <vue_proj_name>
+  - npm install axios
+  - npm install bulma (bootstrape instead)
+  - npm run serve
+  - 
+  - Includ Font Awesome (icon CDN)
+  - 
+  - template set up
+  - product vue page
+  - Add link to detail page
+  - opp Vuex / State
+  - Cart function
+    - should be component
+    - +- content
+    - remove 

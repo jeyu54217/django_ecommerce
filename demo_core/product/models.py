@@ -18,14 +18,36 @@ class Category(models.Model):
         return f'/{self.slug}/'
 
 class Product(models.Model):
-    category = models.ForeignKey(Category, related_name='products', on_delete=models.CASCADE)
-    name = models.CharField(max_length=255)
+    category = models.ForeignKey(
+        Category, 
+        related_name='products', 
+        on_delete=models.CASCADE
+        )
+    name = models.CharField(
+        max_length=255
+        )
     slug = models.SlugField()
-    description = models.TextField(blank=True, null=True)
-    price = models.DecimalField(max_digits=6, decimal_places=2)
-    image = models.ImageField(upload_to='uploads/', blank=True, null=True)
-    thumbnail = models.ImageField(upload_to='uploads/', blank=True, null=True)
-    date_added = models.DateTimeField(auto_now_add=True)
+    description = models.TextField(
+        blank=True, 
+        null=True
+        )
+    price = models.DecimalField(
+        max_digits=6, 
+        decimal_places=2
+        )
+    image = models.ImageField(
+        upload_to='uploads/', 
+        blank=True, 
+        null=True
+        )
+    thumbnail = models.ImageField(
+        upload_to='uploads/', 
+        blank=True, 
+        null=True
+        )
+    date_added = models.DateTimeField(
+        auto_now_add=True
+        )
 
     class Meta:
         ordering = ('-date_added',)
@@ -41,6 +63,17 @@ class Product(models.Model):
             return 'http://127.0.0.1:8000' + self.image.url
         return ''
     
+    def make_thumbnail(self, image, size=(400, 300)):
+        img = Image.open(image)
+        img.convert('RGB')
+        img.thumbnail(size)
+
+        thumb_io = BytesIO()
+        img.save(thumb_io, 'JPEG', quality=100)
+
+        thumbnail = File(thumb_io, name=image.name)
+        return thumbnail
+    
     def get_thumbnail(self):
         if self.thumbnail:
             return 'http://127.0.0.1:8000' + self.thumbnail.url
@@ -52,15 +85,3 @@ class Product(models.Model):
                 return 'http://127.0.0.1:8000' + self.thumbnail.url
             else:
                 return ''
-    
-    def make_thumbnail(self, image, size=(300, 200)):
-        img = Image.open(image)
-        img.convert('RGB')
-        img.thumbnail(size)
-
-        thumb_io = BytesIO()
-        img.save(thumb_io, 'JPEG', quality=85)
-
-        thumbnail = File(thumb_io, name=image.name)
-
-        return thumbnail

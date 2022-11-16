@@ -3,10 +3,8 @@
         <div class="columns is-multiline">
             <div class="column is-12">
                 <h1 class="title">Search</h1>
-
                 <h2 class="is-size-5 has-text-grey">Search term: "{{ query }}"</h2>
             </div>
-
             <ProductBox 
                 v-for="product in products"
                 v-bind:key="product.id"
@@ -31,8 +29,7 @@ export default {
         }
     },
     mounted() {
-        document.title = 'Search | Djackets'
-
+        document.title = 'Search'
         let uri = window.location.search.substring(1)
         let params = new URLSearchParams(uri)
 
